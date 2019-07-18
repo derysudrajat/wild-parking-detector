@@ -146,7 +146,7 @@ void loop(void)
   float y =event.acceleration.y;
   float x  = event.acceleration.x;
   float z = event.acceleration.z;
- if(y<0.30){        
+ if(y<0){        
     Serial.print("=============== Ada sesuatu di atas : ");
     Serial.println(y);            
     /* Display the results (acceleration is measured in m/s^2) */
